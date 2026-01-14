@@ -304,3 +304,9 @@ footer {
 .social-float a:hover {
   transform: translateY(-3px);
 }
+
+.back-home {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 40px;
+}
