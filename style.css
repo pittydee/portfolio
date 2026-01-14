@@ -302,6 +302,11 @@ footer {
   transition: transform 0.2s;
 }
 
+.social-float i {
+  font-size: 24px;
+}
+
+
 .social-float a:hover {
   transform: translateY(-3px);
 }
