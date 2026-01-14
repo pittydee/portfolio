@@ -8,52 +8,94 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="container">
-    <header>
-      <div class="profile-img">P</div>
-      <h1>Hi, I'm <span>Pitt</span> 👋</h1>
-      <p>Web Developer | UI/UX Enthusiast | Student</p>
-    </header>
+<div class="container">
 
-    <section class="card">
-      <h2><i class="fa-solid fa-user"></i> About Me</h2>
-      <p>
-        I am a university student interested in web development and UI/UX design. 
-        I love creating clean, functional, and user-friendly websites. 
-        This portfolio is a showcase of my journey.
-      </p>
-    </section>
+  <!-- HEADER -->
+  <header class="fade-in">
+    <div class="profile-img">P</div>
+    <h1>Hi, I'm <span>Pitt</span> 👋</h1>
+    <p>Web Developer · Mobile App · Data-minded Student</p>
 
-    <section class="card">
-      <h2><i class="fa-solid fa-code"></i> Skills</h2>
-      <ul class="skills">
-        <li><i class="fa-brands fa-html5"></i> HTML</li>
-        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-        <li><i class="fa-brands fa-js"></i> JavaScript</li>
-        <li><i class="fa-brands fa-python"></i> Python</li>
-        <li><i class="fa-solid fa-server"></i> Django</li>
-      </ul>
-    </section>
+    <div class="header-buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="resume.pdf" class="btn outline" download>Download Resume</a>
+    </div>
+  </header>
 
-    <section class="card">
-      <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
-      <div class="contact-info">
-        <p><strong>Email:</strong> yourname@email.com</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">@yourusername</a></p>
+  <!-- ABOUT -->
+  <section class="card fade-in">
+    <h2><i class="fa-solid fa-user"></i> About Me</h2>
+    <p>
+      Statistics student with experience in web and mobile application development, and a strong interest in data-driven problem solving.
+      I enjoy building clean, user-focused interfaces and interactive applications supported by analytical thinking.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="card fade-in">
+    <h2><i class="fa-solid fa-code"></i> Skills</h2>
+    <ul class="skills">
+      <li><i class="fa-brands fa-html5"></i> HTML</li>
+      <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+      <li><i class="fa-brands fa-js"></i> JavaScript</li>
+      <li><i class="fa-brands fa-python"></i> Python</li>
+      <li><i class="fa-solid fa-database"></i> SQL</li>
+      <li><i class="fa-brands fa-swift"></i> Swift</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="card fade-in" id="projects">
+    <h2><i class="fa-solid fa-briefcase"></i> Projects</h2>
+
+    <div class="project">
+      <h3>Bon Pain Bakery Website</h3>
+      <p>Responsive website built with HTML and CSS, focusing on clean UI and mobile usability.</p>
+      <div class="project-links">
+        <a href="#" target="_blank">Live Demo</a>
+        <a href="#" target="_blank">GitHub</a>
       </div>
-    </section>
+    </div>
 
-    <footer>
-      <p>© 2026 Pitt. Crafted with ❤️ and CSS</p>
-    </footer>
-  </div>
+    <div class="project">
+      <h3>Sugarcane Sustainability Game</h3>
+      <p>Decision-based mobile game developed in Swift, simulating sustainability trade-offs.</p>
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3>Interactive C Game</h3>
+      <p>Choice-based game with multiple endings, focusing on logic flow and user input handling.</p>
+      <div class="project-links">
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="card fade-in">
+    <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+    <div class="contact-info">
+      <p><strong>Email:</strong> pitt.deemangmee@gmail.com</p>
+      <p><strong>GitHub:</strong> <a href="#" target="_blank">github.com/yourusername</a></p>
+      <p><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/yourname</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Pitt · Built with HTML & CSS</p>
+  </footer>
+
+</div>
 
 </body>
 </html>
